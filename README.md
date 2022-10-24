@@ -1,2 +1,4 @@
 # .dotfiles
-Dotfiles for linux rigs
+Dotfiles for linux rigs:
+  - WSL -- Desktop Windows Subsystem for Linux
+  - Legion -- Manjaro Laptop
