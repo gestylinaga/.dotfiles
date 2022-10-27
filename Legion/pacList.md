@@ -21,3 +21,5 @@
 ## From npm:
   - gtop (system moniter)
   - live-server
+  - tsc (typescript language compiler)
+  - sass (language/compiler)

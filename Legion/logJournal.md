@@ -1,5 +1,10 @@
 # Log Journal
 
+## 10/26/2022
+  - installed Typescript language (`tsc` Typescript Compiler)
+  - installed tsserver lsp (requires tsconfig.json/package.json)
+  - installed Sass language/compiler
+
 ## 10/24/2022
   - installed Rust language
   - installed Paru -- AUR helper
