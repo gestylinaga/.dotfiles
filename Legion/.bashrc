@@ -1,8 +1,10 @@
-#
-# ~/.bashrc
-#
+#    _           _           
+#   | |_ ___ ___| |_ ___ ___  by:
+#  _| . | .'|_ -|   |  _|  _| Gesty Linaga
+# |_|___|__,|___|_|_|_| |___| for Legion Laptop
 
 #pfetch    # sys info
+colorscript -r # random color script image
 set -o vi # sets vi keybinds in terminal
 
 export EDITOR='nvim'
@@ -17,10 +19,10 @@ alias ll='exa -l --group-directories-first --icons'
 alias la='exa -a --icons'
 alias lla='exa -la --group-directories-first --icons'
 
-alias vimode='setxkbmap -option caps:escape'
-alias vioff='setxkbmap -option'
+alias uncap='setxkbmap -option caps:escape'
+alias recap='setxkbmap -option'
 
-alias clean='clear && exa -l --group-directories-first --icons'
+alias clean='clear && pfetch && exa -l --group-directories-first --icons'
 
 alias surf='nvim'
 alias ZZ='exit'

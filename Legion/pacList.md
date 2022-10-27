@@ -17,6 +17,9 @@
 
 ## From AUR:
   - nvim-packer
+  - vscode
+  - pfetch
+  - shell-color-scripts
 
 ## From npm:
   - gtop (system moniter)
