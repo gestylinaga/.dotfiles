@@ -2,7 +2,8 @@
 
 ## 10/27/2022 
   - installed pfetch
-  - installed shell=color-scripts
+  - installed shell-color-scripts
+  - installed qtile
 
 ## 10/26/2022
   - installed Typescript language (`tsc` Typescript Compiler)

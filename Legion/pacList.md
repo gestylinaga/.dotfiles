@@ -10,6 +10,7 @@
   - exa (ls replacement)
   - cmatrix (matrix screensaver)
   - Lua (language/interpreter)
+  - qtile (window manager)
 
 ## From source:
   - paru (AUR helper)
