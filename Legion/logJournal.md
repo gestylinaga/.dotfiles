@@ -1,28 +1,18 @@
-# Log Journal
+# Log Journal -- Lenovo Laptop Build Manjaro
 
-## 10/27/2022 
-  - installed pfetch
-  - installed shell-color-scripts
-  - installed qtile
+## 10/27/22
+  - added ssh key for github
+  - added .gitconfig for github
+  - enabled acpid for battery-widget: `systemctl enable acpid`
 
-## 10/26/2022
-  - installed Typescript language (`tsc` Typescript Compiler)
-  - installed tsserver lsp (requires tsconfig.json/package.json)
-  - installed Sass language/compiler
-  - installed vscode
+  - installed catppuccin konsole theme
+  - installed catppuccin vscode theme
+  - installed catppuccin google-chrome-dev theme
+  - installed catppuccin kitty theme
+  - installed catppuccin dark-reader
+  - installed [catppuccin kde theme](https://github.com/catppuccin/kde)
 
-## 10/24/2022
-  - installed Rust language
-  - installed Paru -- AUR helper
-  - installed n -- node.js/npm version manager
-  - installed node.js/npm
-  - installed exa -- ls replacement
-  - added SSH key (for github)
-  - installed live-server
-  - installed lua -- language/interpreter
-
-## 10/23/2022
-  - Manjaro installed :)
-  - updated NVIDIA drivers
-  - updated Linux Headers
+  - installed chili for plasma sddm theme
   - disabled system beeps with command: `echo "blacklist pcspkr" | sudo tee /etc/modprobe.d/nobeep.conf`
+  - updated nvidia drivers from [this guide](https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-manjaro-linux)
+  - Manjaro kde Plasma installed

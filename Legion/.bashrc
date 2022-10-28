@@ -4,14 +4,14 @@
 # |_|___|__,|___|_|_|_| |___| for Legion Laptop
 
 #pfetch    # sys info
-colorscript -r # random color script image
+#colorscript -r # random color script image
 set -o vi # sets vi keybinds in terminal
 
+export TERMINAL='kitty'
 export EDITOR='nvim'
 export VISUAL='nvim'
-export TERMINAL='kitty'
+export MANPAGER='nvim +Man!'
 export BROWSER='firefox'
-export MANPAGER='less'
 export HISTCONTROL=ignoreboth
 
 alias ls='exa --group-directories-first --icons'
@@ -28,7 +28,10 @@ alias surf='nvim'
 alias ZZ='exit'
 
 
-### DEFAULTS ###
+#
+# ~/.bashrc
+#
+
 [[ $- != *i* ]] && return
 
 colors() {
@@ -162,4 +165,3 @@ ex ()
     echo "'$1' is not a valid file"
   fi
 }
-. "$HOME/.cargo/env"

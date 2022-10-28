@@ -1,29 +1,35 @@
-# Installed 
+# Package List -- Legion Laptop Manjaro
 
-## From pacman:
-  - kitty (terminal)
-  - neovim (text editor)
-  - ranger (terminal file browser)
-  - linux-headers
-  - base-devel (development tools)
-  - dkms (development tool)
-  - exa (ls replacement)
-  - cmatrix (matrix screensaver)
-  - Lua (language/interpreter)
-  - qtile (window manager)
+## from Pacman:
+- linux-headers
+- base-devel
+- dkms (development tool)
+- neovim
+- kitty
+- exa (ls replacement)
+- awesome
+- ranger
+- lua
+- unzip (for sumneko_lua lsp)
+- picom
+- acpid (for battery-widget)
+- cmatrix
 
-## From source:
-  - paru (AUR helper)
-  - n (node.js/npm version manager)
+## from Source:
+- paru (AUR helper; includes Rust language)
+- n (for NodeJS and NPM)
+- ranger_devicons
+- awesome.battery-widget
 
-## From AUR:
-  - nvim-packer
-  - vscode
-  - pfetch
-  - shell-color-scripts
+## from AUR:
+- nvim-packer
+- pfetch
+- google-chrome-dev
+- visual-studio-code-bin
+* ? shell-color-scripts
 
-## From npm:
-  - gtop (system moniter)
-  - live-server
-  - tsc (typescript language compiler)
-  - sass (language/compiler)
+## from NPM:
+- gtop
+- live-server
+- typescript
+- sass
