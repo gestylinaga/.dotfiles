@@ -49,6 +49,8 @@ return require('packer').startup(function(use)
   use 'hrsh7th/cmp-path' -- path completion
   use 'hrsh7th/cmp-cmdline' -- command line completion
   use 'hrsh7th/cmp-nvim-lsp' -- lsp suggested completion
+  use 'hrsh7th/cmp-emoji' -- emoji completion
+  use 'chrisgrieser/cmp-nerdfont' -- nerdfont icon completion
   -- Snippets (for tab completion)
   use 'L3MON4D3/LuaSnip' -- Snippet engine
   use 'rafamadriz/friendly-snippets' -- more snippets to use

@@ -14,6 +14,7 @@
 - picom
 - acpid (for battery-widget)
 - cmatrix
+- gimp (photoshop)
 
 ## from Source:
 - paru (AUR helper; includes Rust language)
@@ -26,6 +27,7 @@
 - pfetch
 - google-chrome-dev
 - visual-studio-code-bin
+- discord
 * ? shell-color-scripts
 
 ## from NPM:

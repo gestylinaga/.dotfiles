@@ -22,15 +22,15 @@ alias lla='exa -la --group-directories-first --icons'
 alias uncap='setxkbmap -option caps:escape'
 alias recap='setxkbmap -option'
 
-alias clean='clear && pfetch && exa -l --group-directories-first --icons'
+alias clean='clear && pfetch && exa -l --group-directories-first --icons && echo "in:" && pwd'
 
 alias surf='nvim'
 alias ZZ='exit'
 
 
-#
+# Manjaro
 # ~/.bashrc
-#
+# Defaults:
 
 [[ $- != *i* ]] && return
 

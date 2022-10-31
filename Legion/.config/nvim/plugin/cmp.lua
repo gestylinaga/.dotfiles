@@ -123,6 +123,8 @@ sources = {
     { name = "buffer" },
     { name = "path" },
     { name = "nvim_lsp" },
+    { name = "emoji" },
+    { name = "nerdfont" },
 },
 confirm_opts = {
     behavior = cmp.ConfirmBehavior.Replace,
@@ -155,6 +157,14 @@ require'lspconfig'.pyright.setup {
 }
 
 require'lspconfig'.sumneko_lua.setup {
+  capabilities = capabilities,
+}
+
+require'lspconfig'.tsserver.setup {
+  capabilities = capabilities,
+}
+
+require'lspconfig'.cssls.setup {
   capabilities = capabilities,
 }
 
