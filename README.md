@@ -1,4 +1,4 @@
 # .dotfiles
 Dotfiles for linux rigs:
   - WSL -- Debian Desktop -  Windows Subsystem for Linux
-  - Legion -- Manjaro kde Laptop Build
+  - Legion -- Debian Gnome Laptop Build
