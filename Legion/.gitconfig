@@ -3,3 +3,5 @@
   name = Gesty Linaga
 [pull]
   rebase = true
+[init]
+	defaultBranch = main

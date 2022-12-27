@@ -22,6 +22,9 @@ return require('packer').startup(function(use)
   -- Packer (managing itself)
   use 'wbthomason/packer.nvim'
   
+
+  use 'wuelnerdotexe/vim-astro' -- astro plugin
+
   -- Functionality --
   -- Tabline (tab line)
   use 'kdheepak/tabline.nvim'

@@ -1,37 +1,42 @@
-# Package List -- Legion Laptop Manjaro
+# Pac List 🏄 - Arch Build
 
-## from Pacman:
-- linux-headers
-- base-devel
-- dkms (development tool)
-- neovim
-- kitty
-- exa (ls replacement)
-- awesome
-- ranger
-- lua
-- unzip (for sumneko_lua lsp)
-- picom
-- acpid (for battery-widget)
-- cmatrix
-- gimp (photoshop)
+## From pacman
+  - neofetch
+  - neovim
+  - ranger
+  - firefox
+  - nvidia (replaces nvidia-open)
+  - kitty
+  - exa
+  - git
+  - python-pip
+  - papirus-icon-theme
+  - cmatrix
+  - man-db (man pages)
+  - steam
 
-## from Source:
-- paru (AUR helper; includes Rust language)
-- n (for NodeJS and NPM)
-- ranger_devicons
-- awesome.battery-widget
+## From source
+  - paru 
+  - n (node version manager)
 
-## from AUR:
-- nvim-packer
-- pfetch
-- google-chrome-dev
-- visual-studio-code-bin
-- discord
-* ? shell-color-scripts
+## From paru (AUR) 
+  - nvim-packer-git
+  - gnome-browser-connector
+  - pfetch
+  - nerd-fonts-inconsolata
+  - catppuccin-gtk-theme-mocha
+  - google-chrome-dev
 
-## from NPM:
-- gtop
-- live-server
-- typescript
-- sass
+## From npm
+  - tsc
+  - sass
+  - live-server
+
+## From pip
+  - pillow (aka PIL)
+
+## GNOME extensions
+  - caffeine
+  - no overview at start-up
+  - user themes
+  - ?tray icons: reloaded
