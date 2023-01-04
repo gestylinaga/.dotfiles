@@ -14,6 +14,8 @@
   - cmatrix
   - man-db (man pages)
   - steam
+  - discord
+  - gimp
 
 ## From source
   - paru 
@@ -28,15 +30,16 @@
   - google-chrome-dev
 
 ## From npm
-  - tsc
+  - typescript 
   - sass
   - live-server
 
 ## From pip
   - pillow (aka PIL)
+  - pygame
 
 ## GNOME extensions
   - caffeine
   - no overview at start-up
   - user themes
-  - ?tray icons: reloaded
+  - tray icons: reloaded
