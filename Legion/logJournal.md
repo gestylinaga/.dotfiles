@@ -1,5 +1,12 @@
 # Log Journal - Arch Build
 
+## 2023-1-11
+  - installed `linux-lts-headers` as backup "long term support" kernel
+
+## 2023-1-9
+  - enabled parallel downloads in `/etc/pacman.conf`
+  - enabled `ILoveCandy` in `/etc/pacman.conf`
+
 ## 2023-1-4
   - enabled `color` in `/etc/pacman.conf`
 

@@ -7,7 +7,7 @@
   - firefox
   - nvidia (replaces nvidia-open)
   - kitty
-  - exa
+  - exa (ls replacement)
   - git
   - python-pip
   - papirus-icon-theme
@@ -16,6 +16,11 @@
   - steam
   - discord
   - gimp
+  - bottom (aka 'btm', system monitor)
+  - linux-lts-headers (backup kernel)
+  - ntfs-3g (for ntfs3 filesystem drivers)
+  - vlc
+  - bat (cat replacement)
 
 ## From source
   - paru 
