@@ -17,10 +17,11 @@
   - discord
   - gimp
   - bottom (aka 'btm', system monitor)
-  - linux-lts-headers (backup kernel)
+  - linux-lts-headers (backup kernel headers)
   - ntfs-3g (for ntfs3 filesystem drivers)
   - vlc
   - bat (cat replacement)
+  - linux-lts (backup kernel)
 
 ## From source
   - paru 
