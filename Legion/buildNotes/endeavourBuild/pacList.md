@@ -1,4 +1,4 @@
-# Pac List - EndeavorOS Build
+# Pac List - EndeavourOS Build
 
 ## From pacman
   - neofetch
