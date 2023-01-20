@@ -32,9 +32,9 @@ return require('packer').startup(function(use)
 
   -- Tree-sitter (syntax highlighting)
   use {'nvim-treesitter/nvim-treesitter',
-    run = ':TSUpdate'
+    --run = ':TSUpdate'
     -- Use on first Sync:
-    --run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
+    run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
   }
   -- Telescope (fuzzy finder)
   use {'nvim-telescope/telescope.nvim', tag = '0.1.0',

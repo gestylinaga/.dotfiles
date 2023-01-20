@@ -3,7 +3,7 @@
 #  _| . | .'|_ -|   |  _|  _| Gesty Linaga
 # |_|___|__,|___|_|_|_| |___| for Legion Laptop Arch Build
 
-pfetch    # sys info
+#pfetch    # sys info
 set -o vi # sets vi keybinds in terminal
 
 export TERMINAL='kitty'
