@@ -4,8 +4,12 @@ echo
 echo "Installing dev tools: TypeScript, Sass, & live-server, pillow"
 echo
 
+# Base install
 sudo -H pip install pillow # ranger image preview
 sudo npm install -g typescript sass live-server # web dev
+
+# Terminal candy
+paru -S --needed pfetch cmatrix-git ttf-sourcecodepro-nerd
 
 # Version check
 echo "Installed:"
@@ -15,8 +19,5 @@ echo "TypeScript $(tsc -v)"
 echo "Sass v$(sass --version)"
 live-server -v
 
-# terminal candy
-paru -S --needed pfetch cmatrix-git ttf-sourcecodepro-nerd
-
 pfetch
-echo "Done."
+echo "Done, $(whoami) 🤙"

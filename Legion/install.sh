@@ -28,4 +28,4 @@ cp -r ./.config/ranger ~/.config/
 cat ./.bashrc >> ~/.bashrc
 
 neofetch
-echo "Done."
+echo "Done, $(whoami) 🤙"
