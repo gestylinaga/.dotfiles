@@ -1,3 +1,5 @@
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
 #    _           _           
 #   | |_ ___ ___| |_ ___ ___  by:
 #  _| . | .'|_ -|   |  _|  _| Gesty Linaga
@@ -18,20 +20,19 @@ alias ll='exa -l --group-directories-first --icons'
 alias la='exa -a --icons'
 alias lla='exa -la --group-directories-first --icons'
 
+# remapping CapsLock to Escape for X11
 alias uncap='setxkbmap -option caps:escape'
 alias recap='setxkbmap -option'
+
+# remapping CapsLock to Escape for Wayland
+#alias uncap="gsettings set org.gnome.desktop.input-sources xkb-options \"['caps:ctrl_modifier']\""
 
 alias clean='clear && pfetch && exa -l --group-directories-first --icons && echo "in:" && pwd'
 
 alias surf='nvim'
 alias ZZ='exit'
 
-#
-# ~/.bashrc | Arch Defaults
-#
-
-# If not running interactively, don't do anything
-[[ $- != *i* ]] && return
+alias stor='cd /mnt/Storage'
 
 #PS1='[\u@\h \W]\$ '
 
