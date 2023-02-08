@@ -11,7 +11,6 @@
   - git
   - python-pip
   - papirus-icon-theme
-  - cmatrix
   - man-db (man pages)
   - steam
   - discord
@@ -22,6 +21,10 @@
   - vlc
   - bat (cat replacement)
   - linux-lts (backup kernel)
+  - tlp (laptop battery optimization)
+  - tldr
+  - ffmpegthumbnailer
+  - nvidia-lts (for linux-lts)
 
 ## From source
   - paru 
@@ -31,9 +34,11 @@
   - nvim-packer-git
   - gnome-browser-connector
   - pfetch
-  - nerd-fonts-inconsolata
   - catppuccin-gtk-theme-mocha
   - google-chrome-dev
+  - ttf-sourcecodepro-nerd
+  - cmatrix-git
+  - gdm-settings
 
 ## From npm
   - typescript 

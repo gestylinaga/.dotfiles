@@ -1,6 +1,13 @@
 # Log Journal - Arch Build
+## 2023-2-7
+  - installed `nvidia-lts` package for use with `linux-lts`
+
+## 2023-1-21
+  - added nvidia modules to `/etc/mkinitcpio.conf`
+  - `MODULE(nvidia nvidia_modeset nvidia_uvm nvidia_drm)`
 
 ## 2023-1-15
+  - installed `tlp` for laptop battery optimization & enabled it with `systemctl enable tlp.service`
   - installed `linux-lts` (the actual kernel, not just the headers)
   - added systemd-boot entry for `linux-lts` in `/boot/loader/entries/` 
   - by following these guides:
