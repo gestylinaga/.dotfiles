@@ -5,7 +5,7 @@
 #  _| . | .'|_ -|   |  _|  _| Gesty Linaga
 # |_|___|__,|___|_|_|_| |___| for Legion Laptop Arch Build
 
-#pfetch    # sys info
+pfetch    # sys info
 set -o vi # sets vi keybinds in terminal
 
 export TERMINAL='kitty'
@@ -21,8 +21,13 @@ alias la='exa -a --icons'
 alias lla='exa -la --group-directories-first --icons'
 
 # remapping CapsLock to Escape for X11
-alias uncap='setxkbmap -option caps:escape'
-alias recap='setxkbmap -option'
+function uncap {
+  if [[ $(setxkbmap -query | grep "caps:escape") == "" ]]; then
+    setxkbmap -option caps:escape;
+  else
+    setxkbmap -option
+  fi
+}
 
 # remapping CapsLock to Escape for Wayland
 #alias uncap="gsettings set org.gnome.desktop.input-sources xkb-options \"['caps:ctrl_modifier']\""
@@ -34,7 +39,8 @@ alias ZZ='exit'
 
 alias stor='cd /mnt/Storage'
 
+# Boring old PS1
 #PS1='[\u@\h \W]\$ '
 
-# Custom PS1
+# Colorful PS1
 export PS1="\[\033[38;5;93m\][\[$(tput sgr0)\]\[\033[38;5;39m\]\u\[$(tput sgr0)\]\[\033[38;5;93m\]@\[$(tput sgr0)\]\[\033[38;5;78m\]\h\[$(tput sgr0)\] \[$(tput sgr0)\]\[\033[38;5;215m\]\W\[$(tput sgr0)\]\[\033[38;5;93m\]]\[$(tput sgr0)\]\[\033[38;5;215m\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
