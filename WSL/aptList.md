@@ -13,6 +13,9 @@
   - python3-env
   - wget
   - python (python 2)
+  - neofetch
+  - ffmpeg
+  - tldr
 
 ## through git clones|make:
   - /neovim/neovim (for 0.7)

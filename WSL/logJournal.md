@@ -52,3 +52,10 @@
 
 ## 1/12/23
   - uninstalled django with `pip uninstall django`
+
+## 1/20/23
+  - upgraded system to 'Bookworm' aka Testing branch
+
+## 12/13/23
+  - uninstalled Neovim
+  - rebuilt Neovim from source (for latest version)
