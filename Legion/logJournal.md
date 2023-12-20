@@ -1,4 +1,18 @@
 # Log Journal - Arch Build
+## 2023-12-7
+  - system updated after a few months without:
+    - updated keyring first with `sudo pacman -Sy archlinux-keyring`
+    - updated like normal with `sudo pacman -Syu`
+
+## 2023-4-12
+  - cleared pacman cache with `sudo pacman -Sc`
+
+## 2023-2-12
+  - edited `/etc/pacman.d/mirrorlist` to fix broken mirrors
+
+## 2023-2-10
+  - ran `sudo mkinitcpio -P` to reload nvidia modules after failed pacman hook
+
 ## 2023-2-7
   - installed `nvidia-lts` package for use with `linux-lts`
 

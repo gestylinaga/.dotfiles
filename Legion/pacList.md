@@ -25,6 +25,8 @@
   - tldr
   - ffmpegthumbnailer
   - nvidia-lts (for linux-lts)
+  - base-devel
+  - python-pillow
 
 ## From source
   - paru 
@@ -46,7 +48,8 @@
   - live-server
 
 ## From pip
-  - pillow (aka PIL)
+  - pillow (aka PIL) 
+    - (no longer available from pip, use `pacman -S python-pillow` instead)
   - pygame
 
 ## GNOME extensions
