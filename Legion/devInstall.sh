@@ -5,7 +5,7 @@ echo "Installing web dev tools: TypeScript, Sass, & live-server"
 echo
 
 # Base install
-sudo npm install -g typescript sass live-server # web dev
+#sudo npm install -g typescript sass live-server # web dev
 
 # Version check
 echo "Installed Versions:"
@@ -24,9 +24,9 @@ if [[ "$(which paru)" == "/usr/bin/paru" ]]; then
   paru -S --needed pfetch cmatrix-git
   pfetch
   echo "Done, $(whoami) 🤙"
-elif [[ "$(which yay)" == "usr/bin/yay" ]]; then
+elif [[ "$(which yay)" == "/usr/bin/yay" ]]; then
   echo "Yay detected"
-  yay pfetch cmatrix-git
+  yay -S --needed  pfetch cmatrix-git
   pfetch
   echo "Done, $(whoami) 🤙"
 else
