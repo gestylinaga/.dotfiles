@@ -27,6 +27,8 @@
   - nvidia-lts (for linux-lts)
   - base-devel
   - python-pillow
+  - ripgrep
+  - go (language compiler)
 
 ## From source
   - paru 

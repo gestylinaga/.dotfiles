@@ -32,7 +32,7 @@ function uncap {
 # remapping CapsLock to Escape for Wayland
 #alias uncap="gsettings set org.gnome.desktop.input-sources xkb-options \"['caps:ctrl_modifier']\""
 
-alias clean='clear && pfetch && exa -l --group-directories-first --icons && echo "in:" && pwd'
+alias clean='clear && pfetch && exa -l --group-directories-first --icons && echo "in: $(pwd)"'
 
 alias surf='nvim'
 alias ZZ='exit'
