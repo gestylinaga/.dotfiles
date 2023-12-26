@@ -5,7 +5,7 @@ echo "Installing web dev tools: TypeScript, Sass, & live-server"
 echo
 
 # Base install
-#sudo npm install -g typescript sass live-server # web dev
+sudo npm install -g typescript sass live-server # web dev
 
 # Version check
 echo "Installed Versions:"
