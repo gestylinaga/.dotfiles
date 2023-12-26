@@ -1,26 +1,35 @@
 #!/usr/bin/sh
 
 echo
-echo "Installing dev tools: TypeScript, Sass, & live-server"
+echo "Installing web dev tools: TypeScript, Sass, & live-server"
 echo
 
 # Base install
 sudo npm install -g typescript sass live-server # web dev
 
-echo
-echo "Installing terminal candy: pfetch, cmatrix, patched nerd font, & pillow"
-echo
-
-# Terminal candy
-paru -S --needed pfetch cmatrix-git ttf-sourcecodepro-nerd python-pillow
-
 # Version check
 echo "Installed Versions:"
 echo
-echo "pillow $(pip show pillow | grep "Version")"
 echo "TypeScript $(tsc -v)"
 echo "Sass v$(sass --version)"
 live-server -v
 
-pfetch
-echo "Done, $(whoami) 🤙"
+echo
+echo "Installing terminal candy: pfetch & cmatrix"
+echo
+
+# Terminal candy
+if [[ "$(which paru)" == "/usr/bin/paru" ]]; then
+  echo "Paru detected"
+  paru -S --needed pfetch cmatrix-git
+  pfetch
+  echo "Done, $(whoami) 🤙"
+elif [[ "$(which yay)" == "usr/bin/yay" ]]; then
+  echo "Yay detected"
+  yay pfetch cmatrix-git
+  pfetch
+  echo "Done, $(whoami) 🤙"
+else
+  echo "No AUR helper detected"
+  echo "Install aborted"
+fi
