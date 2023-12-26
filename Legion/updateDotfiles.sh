@@ -8,6 +8,7 @@ echo "Done 🤙"
 
 cd ~/github/.dotfiles/
 if [[ $(git status | grep 'nothing to commit') == "" ]]; then
+  git add .
   git commit -m "20$(date +'%y-%m-%d') Update";
   echo "Git Commit Completed!..."
   echo "...Don't Forget to 'git push'"
