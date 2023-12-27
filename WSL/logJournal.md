@@ -1,61 +1,75 @@
 # Log Journal - Debian WSL Build
 
-## 8/31/22
-  - web dev icons work in debian client, but not in powershell
-  - updated to WSL 2
+## 12/26/23
+  - Updated WSL.exe with `wsl --update` in PowerShell
+    - Version 2.0.14.0
 
-## 9/1/22
-  - disabled error bell in `/etc/inputrc` with `set bell-style none`
+## 12/23/23
+  - installed go (language compiler)
+    - added go `PATH` in `.bashrc`
 
-## 9/1/22
-  - installed lua5.4
+## 12/21/23
+  - added .bash_aliases
 
-## 9/3/22
-  - installed nvim plugin: Code_runner
+## 12/19/23
+  - upgraded system to 'Trixie' release
 
-## 9/7/22
-  - installed python3-pip
-  - installed through pip: pygame
+## 12/13/23
+  - uninstalled neovim
+  - rebuilt neovim from source (for up-to-date version for new surfVim config)
 
-## 9/20/22
-  - installed npm
+## 1/20/23
+  - upgraded system to 'Bookworm' aka Testing branch
 
-## 9/22/22
-  - installed cmatrix
-
-## 9/26/22
-  - installed ranger
-
-## 9/27/22
-  - installed python3-venv
-  - installed through pip: django
-
-## 10/8/22
-  - installed rustup -- Rust language install script
-
-## 10/10/22
-  - installed through pip: pyinstaller
-
-## 10/11/22
-  - installed through cargo: exa
-
-## 10/14/22
-  - installed wget
-  - installed through npm: n(node version manager), and typescript(lang/compiler)
-
-## 10/15/22
-  - installed through npm: vscode-langservers-extracted (css lsp)
+## 1/12/23
+  - uninstalled django with `pip uninstall django`
 
 ## 10/27/22
   - installed through npm: sass
   - install through npm: postcss-cli, autoprefixer (for custom bootstrap)
 
-## 1/12/23
-  - uninstalled django with `pip uninstall django`
+## 10/15/22
+  - installed through npm: vscode-langservers-extracted (css lsp)
 
-## 1/20/23
-  - upgraded system to 'Bookworm' aka Testing branch
+## 10/14/22
+  - installed wget
+  - installed through npm: n(node version manager), and typescript(lang/compiler)
 
-## 12/13/23
-  - uninstalled Neovim
-  - rebuilt Neovim from source (for latest version)
+## 10/11/22
+  - installed through cargo: exa
+
+## 10/10/22
+  - installed through pip: pyinstaller
+
+## 10/8/22
+  - installed rustup -- Rust language install script
+
+## 9/27/22
+  - installed python3-venv
+  - installed through pip: django
+
+## 9/26/22
+  - installed ranger
+
+## 9/22/22
+  - installed cmatrix
+
+## 9/20/22
+  - installed npm
+
+## 9/7/22
+  - installed python3-pip
+  - installed through pip: pygame
+
+## 9/3/22
+  - installed nvim plugin: Code_runner
+
+## 9/1/22
+  - installed lua5.4
+
+## 9/1/22
+  - disabled error bell in `/etc/inputrc` with `set bell-style none`
+
+## 8/31/22
+  - web dev icons work in debian client, but not in powershell
+  - updated to WSL 2
