@@ -14,9 +14,9 @@ echo "Continue? (y/N)"
 read answer
 if [[ "$answer" == "y" ]]; then
   ## Config installs
-  cp -r ./.config/kitty ~/.config/
-  cp -r ./.config/ranger ~/.config/
-  cat ./.bashrc >> ~/.bashrc
+  cp -r ../.config/kitty ~/.config/
+  cp -r ../.config/ranger ~/.config/
+  cat ../.bashrc >> ~/.bashrc
 else
   echo "Config update cancelled"
 fi
