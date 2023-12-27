@@ -16,10 +16,12 @@
   - neofetch
   - ffmpeg
   - tldr
+  - ripgrep
 
 ## through git clones|make:
-  - /neovim/neovim (for 0.7)
+  - /neovim/neovim (for more updated version than available on apt)
   - /wbthomason/packer.nvim (plugins manager)
+    - no longer needed, migrated to lazy.nvim
   - /dylanaraps/pfetch
 
 ## through pip
@@ -42,3 +44,6 @@
 
 ## through cargo:
   - exa -- ls replacement
+
+## through tar.gz file
+  - go (language compiler)
