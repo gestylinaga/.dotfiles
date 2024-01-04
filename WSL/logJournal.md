@@ -1,5 +1,15 @@
 # Log Journal - Debian WSL Build
 
+## 1/4/24
+  - Update error: apt hangs on configuring 'libc6:amd64'
+    - cancelled update, caused partial install which needed to be fixed with:
+    `dpkg --configure -a`, but that also got hung
+    - solution:
+      - cleared out dpkg info with command: 
+      - `mv /var/lib/dpkg/info /var/lib/dpkg/info_old`, then ran:
+      - `apt-get update && apt-get -f install`, then finally:
+      - `apt update && apt upgrade`
+
 ## 12/26/23
   - Updated WSL.exe with `wsl --update` in PowerShell
     - Version 2.0.14.0

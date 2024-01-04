@@ -17,6 +17,7 @@
   - ffmpeg
   - tldr
   - ripgrep
+  - bat (cat replacement)
 
 ## through git clones|make:
   - /neovim/neovim (for more updated version than available on apt)
