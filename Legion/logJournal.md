@@ -1,4 +1,17 @@
 # Log Journal - Arch Build
+## 2023-1-14
+  - bluetooth support previously installed (bluez), just not enabled
+    - enabled with `systemctl enable bluetooth.service`
+
+## 2023-1-9
+  - cleared cached versions of all packages (except for last 3) with command:
+    - `paccache -r`
+  - enabled weekly cache clears with `paccache.timer`
+    - `systemctl start paccache.timer`
+    - `systemctl enable paccache.timer`
+  - cleared cache of unused packages with command:
+    - `pacman -Sc`
+
 ## 2023-12-7
   - system updated after a few months without:
     - updated keyring first with `sudo pacman -Sy archlinux-keyring`

@@ -20,24 +20,33 @@ alias ll='exa -l --group-directories-first --icons'
 alias la='exa -a --icons'
 alias lla='exa -la --group-directories-first --icons'
 
-# remapping CapsLock to Escape for X11
-function uncap {
-  if [[ $(setxkbmap -query | grep "caps:escape") == "" ]]; then
-    setxkbmap -option caps:escape;
-  else
-    setxkbmap -option
-  fi
-}
-
-# remapping CapsLock to Escape for Wayland
-#alias uncap="gsettings set org.gnome.desktop.input-sources xkb-options \"['caps:ctrl_modifier']\""
+alias cat='bat'
 
 alias clean='clear && pfetch && exa -l --group-directories-first --icons && echo "in: $(pwd)"'
 
 alias surf='nvim'
 alias ZZ='exit'
+alias :q='exit'
+alias vimcheck='head ~/.config/nvim/CHANGELOG'
 
 alias stor='cd /mnt/Storage'
+
+# remapping CapsLock to Escape
+function uncap {
+  if [[ $XDG_SESSION_TYPE == "x11" ]]; then
+    # for X11
+    if [[ $(setxkbmap -query | grep "caps:escape") == "" ]]; then
+      setxkbmap -option caps:escape;
+    else
+      setxkbmap -option
+    fi
+  elif [[ $XDG_SESSION_TYPE == "wayland" ]]; then
+    # for Wayland
+    gsettings set org.gnome.desktop.input-sources xkb-options "['caps:ctrl_modifier']"
+  else 
+    echo "Cannot detect XDG Session Type"
+  fi
+}
 
 # Boring old PS1
 #PS1='[\u@\h \W]\$ '
