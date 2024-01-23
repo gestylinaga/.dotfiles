@@ -1,4 +1,7 @@
 # Log Journal - Arch Build
+## 2023-1-22
+  - commented out broken mirror in `/etc/pacman.d/mirrorlist`
+
 ## 2023-1-14
   - bluetooth support previously installed (bluez), just not enabled
     - enabled with `systemctl enable bluetooth.service`

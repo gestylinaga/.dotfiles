@@ -29,6 +29,7 @@
   - python-pillow
   - ripgrep
   - go (language compiler)
+  - deno (ts/js runtime)
 
 ## From source
   - paru 
