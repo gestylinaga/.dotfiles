@@ -15,14 +15,14 @@ export MANPAGER='nvim +Man!'
 export BROWSER='firefox'
 export HISTCONTROL=ignoreboth
 
-alias ls='exa --group-directories-first --icons'
-alias ll='exa -l --group-directories-first --icons'
-alias la='exa -a --icons'
-alias lla='exa -la --group-directories-first --icons'
+alias ls='eza --group-directories-first --icons'
+alias ll='eza -l --group-directories-first --icons'
+alias la='eza -a --icons'
+alias lla='eza -la --group-directories-first --icons'
 
 alias cat='bat'
 
-alias clean='clear && pfetch && exa -l --group-directories-first --icons && echo "in: $(pwd)"'
+alias clean='clear && pfetch && eza -l --group-directories-first --icons && echo "in: $(pwd)"'
 
 alias surf='nvim'
 alias ZZ='exit'

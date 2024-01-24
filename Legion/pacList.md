@@ -7,7 +7,7 @@
   - firefox
   - nvidia (replaces nvidia-open)
   - kitty
-  - exa (ls replacement)
+  - exa (deprecated, replaced with eza)
   - git
   - python-pip
   - papirus-icon-theme
@@ -30,6 +30,8 @@
   - ripgrep
   - go (language compiler)
   - deno (ts/js runtime)
+  - nvidia-prime (for hybrid/switchable graphics)
+  - switcheroo-control (hybrid graphics gnome integration)
 
 ## From source
   - paru 
@@ -37,6 +39,7 @@
 
 ## From paru (AUR) 
   - nvim-packer-git
+    - no longer needed, migrated to lazy.nvim (bootstraps itself)
   - gnome-browser-connector
   - pfetch
   - catppuccin-gtk-theme-mocha
@@ -44,6 +47,7 @@
   - ttf-sourcecodepro-nerd
   - cmatrix-git
   - gdm-settings
+  - nvidia-prime-rtd3pm (auto power down discrete GPU when not in use)
 
 ## From npm
   - typescript 

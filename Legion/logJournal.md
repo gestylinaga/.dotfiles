@@ -1,6 +1,19 @@
 # Log Journal - Arch Build
+## 2023-1-24
+  - enabled 'selectable graphics' in bios
+  - removed `/etc/X11/xorg.conf` file (backup in `~`)
+  - installed 'nvidia-prime' for hybrid graphics control
+    - usage: `prime-run <program-name>`
+  - installed 'switcheroo-control' for hybrid graphics gnome integration
+    - enabled with command: `systemctl enable switcheroo-control.service`
+  - installed AUR package 'nvidia-prime-rtd3pm' to power down GPU if not in use
+    - adds udev rules
+    - adds module parameters
+    - `systemctl enable nvidia-persistenced.service`
+
 ## 2023-1-22
   - commented out broken mirror in `/etc/pacman.d/mirrorlist`
+  - uninstalled deprecated package `webkit2gtk-5.0`
 
 ## 2023-1-14
   - bluetooth support previously installed (bluez), just not enabled
