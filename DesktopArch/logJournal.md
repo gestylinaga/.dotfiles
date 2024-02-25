@@ -1,4 +1,10 @@
 # 📘 Log Journal
+## 2024-2-22
+- enabled virtualization service/socket
+  - `systemctl enable libvirtd.service`
+  - `systemctl enable libvirtd.socket`
+  - `systemctl start libvirtd.socket`
+
 ## 2024-2-21
 - added auto mount points for other drives in `/etc/fstab`
 - replaced `nvidia-dkms` with `nvidia` package

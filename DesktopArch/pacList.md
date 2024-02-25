@@ -15,12 +15,18 @@
 - gnome-browser-connector
 - bottom
 - bat
-- nvidia
+- nvidia nvidia-lts
 - ranger
 - ffmpegthumbnailer
 - python-pillow
-- man-db
-- man-pages
+- man-db man-pages (complete man pages)
+- papirus-icon-theme
+- go
+- lua53
+- qemu-desktop libvirt virt-manager dnsmasq (virtualization packages)
+- tk (python tkinter)
+- neovide
+- noto-fonts-cjk (japanese font face)
 
 ## From source
 - pfetch
@@ -29,7 +35,7 @@
 ## From AUR (paru)
 - ttf-sourcecodepro-nerd
 - google-chrome
-- floorp-bin
+- ungoogled-chromium
 
 ## From npm
 - typescript
@@ -41,4 +47,4 @@
 - caffeine
 - no overview at start-up
 - tray icons: reloaded
-- dash to panel
+- blur my shell

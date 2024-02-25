@@ -1,5 +1,5 @@
-# If not running interactively, don't do anything
 [[ $- != *i* ]] && return
+
 #    _           _           
 #   | |_ ___ ___| |_ ___ ___  by:
 #  _| . | .'|_ -|   |  _|  _| Gesty Linaga
@@ -19,10 +19,10 @@ alias ls='eza --group-directories-first --icons'
 alias ll='eza -l --group-directories-first --icons'
 alias la='eza -a --icons'
 alias lla='eza -la --group-directories-first --icons'
+alias clean='clear && pfetch && eza -l --group-directories-first --icons && echo "in: $(pwd)"'
 
 alias cat='bat'
-
-alias clean='clear && pfetch && eza -l --group-directories-first --icons && echo "in: $(pwd)"'
+alias nrd='npm run dev'
 
 alias surf='nvim'
 alias ZZ='exit'
@@ -31,6 +31,11 @@ alias vimcheck='head ~/.config/nvim/CHANGELOG'
 
 alias ssd='cd /mnt/SSD'
 alias hdd='cd /mnt/HDD'
+
+# load extra aliases
+if [ -f ~/.bash_aliases ]; then
+  . ~/.bash_aliases
+fi
 
 # remapping CapsLock to Escape
 function uncap {
