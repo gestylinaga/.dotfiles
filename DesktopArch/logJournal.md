@@ -1,4 +1,14 @@
 # 📘 Log Journal
+## 2024-2-27
+- changed `InputDevice` driver in `/etc/X11/xorg.conf`
+  - from `mouse` to `evdev` for better support for mice with more than 3 buttons
+  - set `Evdev Mouse` for `InputDevice` in `Section "ServerLayout"`
+  - instructions in this [Arch Wiki Section](https://wiki.archlinux.org/title/Mouse_buttons#evdev_Xorg.conf_setup)
+
+## 2024-2-26
+- removed unused/orphaned packages with command:
+  - `pacman -Qdtq | pacman -Rns -`
+
 ## 2024-2-22
 - enabled virtualization service/socket
   - `systemctl enable libvirtd.service`

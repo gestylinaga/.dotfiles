@@ -27,15 +27,16 @@
 - tk (python tkinter)
 - neovide
 - noto-fonts-cjk (japanese font face)
-
-## From source
-- pfetch
-- paru
+- xorg-xev (prints xorg events to console)
 
 ## From AUR (paru)
 - ttf-sourcecodepro-nerd
 - google-chrome
 - ungoogled-chromium
+
+## From source
+- pfetch
+- paru
 
 ## From npm
 - typescript
