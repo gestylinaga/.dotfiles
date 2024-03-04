@@ -9,6 +9,7 @@
 - eza
 - ripgrep
 - npm/nodejs
+- ttf-sourcecodepro-nerd
 - ntfs-3g
 - gimp
 - vlc
@@ -28,9 +29,9 @@
 - neovide
 - noto-fonts-cjk (japanese font face)
 - xorg-xev (prints xorg events to console)
+- rustup (rust lang toolchain)
 
 ## From AUR (paru)
-- ttf-sourcecodepro-nerd
 - google-chrome
 - ungoogled-chromium
 

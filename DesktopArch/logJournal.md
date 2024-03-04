@@ -31,5 +31,7 @@
 
 ## 2024-2-20
 - Fresh Arch Install
+- Kernel: linux & linux-lts
+- Filesystem: ext4
+- Desktop Environment: GNOME
 - 712 packages for base install
-- linux & linux-lts kernel
