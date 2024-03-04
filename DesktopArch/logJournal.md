@@ -1,4 +1,12 @@
 # 📘 Log Journal
+## 2024-3-4
+- manually ran `mkinitcpio -P` to reload nvidia modules after failed pacman hook
+- new mkinitcpio changes needing manual intervention:
+  - removed the `ALL_microcode` option in `/etc/mkinitcpio.d/linux.preset` & 
+  `/etc/mkinitcpio.d/linux-lts.preset`
+  - added `microcode` hook to `/etc/mkinitcpio.conf`
+- manually ran `mkinitcpio -P` again after making changes to the `.conf` file
+
 ## 2024-2-27
 - changed `InputDevice` driver in `/etc/X11/xorg.conf`
   - from `mouse` to `evdev` for better support for mice with more than 3 buttons
