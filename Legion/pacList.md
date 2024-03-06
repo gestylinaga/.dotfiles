@@ -32,6 +32,11 @@
   - deno (ts/js runtime)
   - nvidia-prime (for hybrid/switchable graphics)
   - switcheroo-control (hybrid graphics gnome integration)
+  - air-sane (for wireless/driverless scanning)
+  - spotify-launcher
+  - cups (for printer support)
+  - hplip (HP printer driver & setup)
+  - python-pyqt5 (for printer GUI)
 
 ## From source
   - paru 

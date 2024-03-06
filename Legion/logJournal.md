@@ -1,4 +1,16 @@
 # Log Journal - Arch Build
+## 2023-3-5
+  - new mkinitcpio changes needing manual intervention:
+    - added `microcode` hook to `/etc/mkinitcpio.conf`
+    - manually ran `mkinitcpio -P` after making changes to the `.conf` file
+
+## 2023-2-9
+  - installed `cups` & `hplip` for printer support
+    - enabled cups socket with `systemctl enable cups.socket`
+    - added user to `cups` & `lp` groups
+    - ran hp setup tool with `hp-setup -i <ip_address>` with printer address
+    - started hp systray with `hp-systray` command
+
 ## 2023-1-24
   - enabled 'selectable graphics' in bios
   - removed `/etc/X11/xorg.conf` file (backup in `~`)
@@ -10,6 +22,7 @@
     - adds udev rules
     - adds module parameters
     - `systemctl enable nvidia-persistenced.service`
+  - enabled `sshd.service` for SSH client
 
 ## 2023-1-22
   - commented out broken mirror in `/etc/pacman.d/mirrorlist`
