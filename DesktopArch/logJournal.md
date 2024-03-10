@@ -1,4 +1,10 @@
 # 📘 Log Journal
+## 2024-3-10
+- add lts `Target` options to `/etc/pacman.d/hooks/nvidia.hook`
+  - `Target=nvidia-lts`
+  - `Target=linux-lts`
+  - this ensures that `mkinitcpio` also runs when the lts packages are upgraded
+
 ## 2024-3-4
 - manually ran `mkinitcpio -P` to reload nvidia modules after failed pacman hook
 - new mkinitcpio changes needing manual intervention:

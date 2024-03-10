@@ -22,6 +22,8 @@
 - python-pillow
 - man-db man-pages (complete man pages)
 - papirus-icon-theme
+- discord
+- steam
 - go
 - lua53
 - qemu-desktop libvirt virt-manager dnsmasq (virtualization packages)
