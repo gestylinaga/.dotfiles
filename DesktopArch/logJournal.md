@@ -1,4 +1,9 @@
 # 📘 Log Journal
+## 2024-3-16
+- fix: rebuilt paru to reflect new pacman update
+ - `git clone https://aur.archlinux.org/paru.git`
+ - `cd paru && makepkg -si`
+
 ## 2024-3-10
 - add lts `Target` options to `/etc/pacman.d/hooks/nvidia.hook`
   - `Target=nvidia-lts`
