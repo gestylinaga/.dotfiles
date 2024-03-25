@@ -1,4 +1,10 @@
 # 📘 Log Journal
+## 2024-3-25
+- made backup of `/etc/pacman.d/mirrorlist` as `/etc/pacman.d/mirrorlist.bak`
+- commented out outdated mirror (first entry)
+- ran `pacman -Syyu` to force refresh package list
+- updated from GNOME 45.5 to GNOME 46 (~100 packages updated)
+
 ## 2024-3-16
 - fix: rebuilt paru to reflect new pacman update
  - `git clone https://aur.archlinux.org/paru.git`
