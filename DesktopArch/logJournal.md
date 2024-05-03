@@ -1,4 +1,14 @@
 # 📘 Log Journal
+## 2024-5-3
+- edited `/etc/mkinitcpio.conf` to match pacnew
+  - moved `modconf` hook higher up list:
+  - `HOOKS(base udev autodetect microcode modconf keyboard keymap block filesystems fsck)`
+  - regenerated image with command `mkinitcpio -P`
+
+## 2024-5-2
+- downgraded `glibc` package to fix steam not opening with command:
+  - `pacman -U file:///var/cache/pacman/pkg/lib32-glibc-2.39-2-x86_64.pkg.tar.zst`
+
 ## 2024-3-25
 - made backup of `/etc/pacman.d/mirrorlist` as `/etc/pacman.d/mirrorlist.bak`
 - commented out outdated mirror (first entry)
