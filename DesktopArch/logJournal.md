@@ -1,4 +1,10 @@
 # 📘 Log Journal
+## 2024-9-5
+- fixed full `/boot` partition by:
+  - disabling fallback initramfs images in `/etc/mkinitcpio.d/*`
+  - deleted old fallback initramfs images in `/boot/`
+  - regenerating boot images with `mkinitcpio -P`
+
 ## 2024-5-3
 - edited `/etc/mkinitcpio.conf` to match pacnew
   - moved `modconf` hook higher up list:

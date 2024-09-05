@@ -32,6 +32,7 @@
 - noto-fonts-cjk (japanese font face)
 - xorg-xev (prints xorg events to console)
 - rustup (rust lang toolchain)
+- yt-dlp
 
 ## From AUR (paru)
 - google-chrome
